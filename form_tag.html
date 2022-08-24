@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>
+            Form Tag:-
+        </title>
+    </head>
+    <body display="inline-flex">
+        <h1>Form Tag</h1>
+        <br>
+        <h1>login page</h1>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <td>Name</td>
+                <td><input type="text" name="Name" id="Name" placeholder="User Name"></td></tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="Password" id="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number :</td>
+                    <td><input type="text" name="data" id="data" placeholder="Number" size="10"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="Date" name="data" id="data"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="aa" id="radio">Agree
+                        <input type="radio" name="aa" id="radio1">Don't Agree
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Save" name="login_page">
+                    <input type="submit" value="Cancel" ></td>
+                </tr>
+               
+            </table>
+        </form>
+        <p> <p>Text yalla oru paraghrap la ila table pottakuda and oru box create panna namma <ins><q>input</q></ins> oru tag use pannanum </p>
+        <p>anda input la main na <ins><q>type=""</q></ins>,<ins><q>id=""</q></ins>irukanum extra vandu <ins><q>name=""</q></ins>, <ins><q>placeholder=""</q></ins>,<ins><q>size=""</q></ins>,<ins><q>width=""</q></ins>,<ins><q>maxlength=""</q></ins>, <ins><q>Value=""</q></ins>.</p></p>
+        <p><ins><q>Value=""</q></ins> namba oru value kuduta tha adu server pogum podhu server ku identified panna help aagum</p>
+        <hr>
+        <form method="get">
+            <table>
+                <tr>
+                    <td>Frist Name:</td> <br>
+                    <td>Last Name:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="FName" id="FName" placeholder="First Name" maxlength="5"></td>
+                    <td><input type="text" name="LName" id="Name" placeholder="Last Name"></td>
+
+                </tr>
+                <tr>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        Email address or phone No:
+                    </td>
+                    <td>
+                        password:
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" id="email" placeholder="Email"></td>
+                    <td><input type="password" name="password" id="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td><input  type="submit" value="Save" class="btn btn-primary">
+                        <input  type="submit" value="Cancel"></td>
+                </tr>
+            </table>
+
+        </form>
+        <hr>
+        <h1> Explain in methods</h1>
+        <p>oru form ma full la compete panna server onu vainum</p>
+        <p>ipo oru register form la <ins><q>submit</q></ins> kudutha adu server poi store aagum but url la namba name and password show aagum appadi show aaga kudadu na namba <ins><q>form method="post"</q></ins> form la oru method use panna adu hide aaidhum</p>
+        <p>e.g. <img src="photos/hide url.png" alt="" title="if press the submit button in URL can't show the name and Password" width="1000px"></p>
+        <p>adi namba oru purshing ila video yadho link ka copy panna entier linkum vainum na namba <ins><q>form method="get"</q></ins>nu kuduta web page la yanda page ponnalum anda page oda url mela show aagum  </p>
+        <p>e.g. <img src="C:\sk\visible password.png" alt="" title="get is show the page in url"width="1000px"></p>
+   <hr>
+        <br>
+   <br>
+   <form action="">
+    <table>
+        <tr>
+            <td><label for="name1">Name:</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="" id="name1" placeholder="Name"></td>
+        </tr>
+        <tr>
+            <td><label for="email1">Email:</label></td>
+        </tr>
+        <tr>
+           <td> <input type="email" name="" id="email1"placeholder="Email"></td>
+        </tr>
+        <tr><td>Command:</td></tr>
+        <tr><td><textarea name="command" id="" cols="30" rows="10" placeholder="command"></textarea></td></tr>
+        <tr>
+            <td><input type="submit" name="send massage" id="" value="send massage"></td>
+        </tr>
+    </table>
+   </form>
+   <p>command box sa create panna <ins><q>input</q></ins> nu kudukama <ins><q>textarea name="" id "" cols="" rows="" placeholder="" </q></ins> nu kuduta namba yanda command panuroma adu varum</p>
+   <p>input ku padila <ins>textarea</ins> nu kudukanum</p>
+   <hr>
+   <br>
+   <hr>
+   <h1>Radio Button</h1>
+   <h2>1. 2,4,5,8,10,12,14,16......?</h2>
+   <h3>which one is incorrect here?</h3>
+   <p>
+    <input type="radio" name="5" id="ans">8 <br>
+    <input type="radio" name="5" id="ans">14 <br>
+    <input type="radio" name="5" id="ans">5 <br>
+    <input type="radio" name="5" id="ans">2 <br>
+   </p>
+<p>
+    <input type="radio" name="accept" value="agree" checked>Agree
+    <input type="radio" name="accept" value="dont agree" >Don't Agree
+</p>
+
+
+   <p>inda radio button vandu ipo oru question la option choose pannara oru button na use aagum and register form la kuda option choose panuraduku idhu use aagum</p>
+   <p> Name="" la yattana option kudukurumbalo adula irukura name yalla same name la irundadha adu option work aagum</p>
+   <hr>
+   <br>
+   <hr>
+   <h1>check box </h1>
+   <p>
+    <h2>what is your hobbys</h2>
+    <input type="checkbox" name="hobbys[]" value="playing game">playing game <br>
+    <input type="checkbox" name="hobbys[]" value="watching movies">watching movies <br>
+    <input type="checkbox" name="hobbys[]" value="runing">runing <br>
+    <input type="checkbox" name="hobbys[]" value="swimming">swimming<br>
+    <input type="checkbox" name="hobbys[]" value="bike riding">bike riding<br>
+    <input type="checkbox" name="hobbys[]" value="drawing">drawing<br>
+    <input type="checkbox" name="hobbys[]" value="music">music
+   </p>
+   <p>Check box yadukuna nariya option na click panna use aagum</p>
+   <hr>
+   <h1>character ra click panna option select aaganum</h1>
+   <p>what are your learning?</p>
+<input type="radio" name="learn" id="html"value="html"><label for="html">HTML</label><br>
+<input type="radio" name="learn" id="css"value="css"><label for="css">CSS</label><br>
+<input type="radio" name="learn" id="javascript"value=js><label for="javascript">JAVASCRIPT</label><br>
+<input type="radio" name="learn" id="program"value="PL"><label for="program">Program language</label><br>
+<br>
+
+<p>
+    oru text ta click panna option click aaga <q><strong> id= "" and for ="" character same ma irukanum</strong> and anda option na Lable kula vaikanum
+    </q>
+</p>
+<p>e.g  
+   <q> <b>input type="radio" name="learn" id="css"value="css"   _ _ _ label for="css" > CSS < label</b> </q></p>
+   <p><strong>for="" na yanga click pannanum nu and id="" na yanga output varanumnu</strong></p>
+    </body>
+</html>

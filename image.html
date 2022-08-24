@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <title>link page</title>
+    </head>
+    <body>
+        <h1>Temple</h1>
+<p align="center">
+    <img src="C:\sk\groot.png" alt="No image" border="4" align="centee" title="temple image">
+</p>
+<p align="center">this is the temple image</p>
+<hr>
+<h1>Figure tag </h1>
+<figure>
+    <img src="C:\sk\luffy.jpg" alt="No image" title="dream haa">
+    <figcaption>dream is like a mad</figcaption>
+    <p>figure tag yadukuna imageku oru fig.1 or fig.1.1 nu mention panna use agudhu</p>
+</figure>
+<hr>
+<br>
+<hr>
+<form action="">
+<table>
+    <tr>
+        <td>Name:</td>
+    </tr>
+    <tr>
+       <td> <input type="text" name="Name" placeholder="Name"></td>
+    </tr>
+    <tr>
+        <td>Roll Number</td>
+    </tr>
+    <tr>
+        <td><input type="text" name="Roll" placeholder="Roll"></td>
+    </tr>
+    <tr>
+        <td>Enter the degree</td>
+    </tr>
+    <tr>
+        <td>
+            <select name="degree" id="val">
+                <option value="default">Select Here</option>
+                <option value="mech">Machanical Engineer</option>
+                <option value="civil">Civil Engineer</option>
+                <option value="ece">Electronics and communication Engineer</option>
+                <option value="eee">Electical and Electronics Engineer</option>
+                <option value="eie">Electical and Information Engineer</option>
+                <option value="IT">Information and Technology</option>
+                <option value="cs">computer and science  Engineer</option>
+                <option value="Aero">Aeronatical Engineer</option>
+                <option value="biomedical">Biomedical Engineer</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" name="Save" value="Save">
+            <input type="submit" name="cancel" value="Cancel">
+        </td>
+    </tr>
+</table>
+
+</form>
+<hr>
+<h1>resume or photo upload </h1>
+<p>
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="" placeholder="Name"></td>
+        </tr>
+        <tr>
+            <td>Your Education:
+            </td>
+            <td>
+                <select name="Education_details" id="" multiple size="3">
+                    <option value="b.e.">B.E.</option>
+                    <option value="b.tech">B.Tech</option>
+                    <option value="b.sc">B.sc</option>
+                    <option value="b.com">B.com</option>
+                    <option value="bca">B.C.A</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>You want to Apply the Position:</td>
+            <td>
+                <select name="Job_role" id="">
+                    <option value="FED">Front End Developer</option>
+                    <option value="BCD">Back End Developer</option>
+                    <option value="FSD">Full Stack Developer</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Your Resume
+            </td>
+            <td>
+                <input type="file" name="" id="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Your Photo
+            </td>
+            <td>
+                <input type="file" name="" id="">
+            </td>
+        </tr>
+    </table>
+    <p>namba uploaded panura file server ku oru file la add aaganumna namba </p>
+    <p><q><strong>Form   enctype="multipart/Form-data"</strong>  nu kuduta tha namba add panura file oru file la server la poi add aagum illana namba add panura file oru text ta tha poi add aagum </q></p>
+    <p>Form Tag la add pananum</p>
+</p>
+<hr>
+<p>
+    <fieldset>
+    <h2>Login details</h2>
+    <p>
+        <label for="login_id">User Name:</label> <br>
+        <input type="text" name="login_Name" id="login_id" value="name"placeholder="Name">
+    </p>
+    <p>
+        <label for="login_id_email">Email:</label> <br>
+        <input type="email" name="login_Email" id="login_id_email" value="Email"placeholder="Email">
+    </p>
+    <p>
+        <label for="login_id_Password">Password:</label> <br>
+        <input type="password" name="login_Email" id="login_id_Password"placeholder="Password">
+    </p>
+</fieldset>
+<fieldset>
+    <h2>Education details</h2>
+    <p>
+        <label for="login_id1">Qulification:</label> <br>
+        <input type="text" name="login_Degree" id="login_id1" value="name" placeholder="Degree">
+    </p>
+    <p>
+        <label for="login_id_collage">Collage</label> <br>
+        <input type="text" name="login_Email" id="login_id_collage" value="collage"placeholder="collage">
+    </p>
+    <p>
+        <label for="login_id_Year">Year Passout</label> <br>
+        <input type="number" name="login_year" id="login_id_year" value="year"placeholder="" size="4">
+    </p>
+    <p>
+        <input type="submit" value=" save " class="btn-primary">
+    </p>
+</fieldset>
+</p>
+<hr>
+<h1>Email Field</h1>
+<p>
+    <p>
+        <label for="email_1">Email</label>
+        <input type="email" id="email_1"  placeholder="Email" required>
+        <br>
+        <input type="submit"  value="Submit">
+    </p>
+</p>
+<p>
+    <h1>number field</h1>
+    <label for="numb">Number</label>
+    <input type="number" id="numb"  min="18" max="99">
+</p>
+<p>
+    <h1>date field</h1>
+    <label for="date_of">DOB</label>
+    <input type="date">
+</p>
+<p>
+    <h1>Range field</h1>
+    <label for="ran">Range</label>
+    <input type="range" min="10" max="500" size="20">
+</p>
+<p>
+    <h1>URL field</h1>
+    <label for="ran">website URL</label>
+    <input type="url"  id="ran" required>
+</p>
+<p>
+    <h1>time field</h1>
+    <label for="ti">time </label>
+    <input type="time"  required>
+</p>
+<p>
+    <h1>week field</h1>
+    <label for="wee">week </label>
+    <input type="week"  required>
+</p>  
+<p>
+    <h1>month field</h1>
+    <label for="ran">month </label>
+    <input type="month"  required>
+</p>
+<p>
+    <h1>search field</h1>
+    <label for="ran">Search here </label>
+    <input type="search"   required>
+</p>  
+</body>
+</html>
